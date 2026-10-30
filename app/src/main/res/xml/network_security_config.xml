@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="@raw/ca_isrg_root_x1" />
+            <certificates src="@raw/ca_isrg_root_x2" />
+            <certificates src="@raw/ca_sectigo_public_server_authentication_root_e46" />
+            <certificates src="@raw/ca_sectigo_public_server_authentication_root_r46" />
+            <certificates src="@raw/ca_usertrust_ecc_certification_authority" />
+            <certificates src="@raw/ca_usertrust_rsa_certification_authority" />
+            <certificates src="@raw/ca_digicert_global_root_g2" />
+            <certificates src="@raw/ca_digicert_global_root_g3" />
+            <certificates src="@raw/ca_digicert_tls_ecc_p384_root_g5" />
+            <certificates src="@raw/ca_digicert_tls_rsa4096_root_g5" />
+            <certificates src="@raw/ca_gts_root_r1" />
+            <certificates src="@raw/ca_gts_root_r2" />
+            <certificates src="@raw/ca_gts_root_r3" />
+            <certificates src="@raw/ca_gts_root_r4" />
+            <certificates src="@raw/ca_globalsign_root_r46" />
+            <certificates src="@raw/ca_globalsign_root_e46" />
+            <certificates src="@raw/ca_amazon_root_ca_1" />
+            <certificates src="@raw/ca_amazon_root_ca_2" />
+            <certificates src="@raw/ca_amazon_root_ca_3" />
+            <certificates src="@raw/ca_amazon_root_ca_4" />
+            <certificates src="@raw/ca_baltimore_cybertrust_root" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
